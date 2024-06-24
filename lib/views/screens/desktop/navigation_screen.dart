@@ -28,8 +28,8 @@ class _NavigationScreenState extends State<NavigationScreen> {
           _currentIndex = value;
         }),
         displayMode: PaneDisplayMode.minimal, 
-        header: Padding(
-          padding: const EdgeInsets.only(left: 20,),
+        header: const Padding(
+          padding: EdgeInsets.only(left: 20,),
           child: Text("Maluc Indumentaria", style: TextStyle(fontSize: 25, fontWeight: FontWeight.w900),),
         ),
         items: [

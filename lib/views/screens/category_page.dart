@@ -39,7 +39,7 @@ class CategoryPage extends StatelessWidget {
                 Expanded(
                   child: GridView.builder(
                     gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                      maxCrossAxisExtent: 400,
+                      maxCrossAxisExtent: 500,
                       mainAxisExtent: 620,
                       childAspectRatio: 4, // Proporción estándar de tarjetas
                       crossAxisSpacing: 20,
